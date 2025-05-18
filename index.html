@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <title>Regjistrimi i Ashensorëve</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; }
+        h1 { text-align: center; }
+        form { background-color: #fff; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+        input, textarea { width: 100%; padding: 8px; margin: 5px 0 10px; }
+        button { padding: 10px 20px; margin-top: 10px; }
+        table { width: 100%; border-collapse: collapse; background-color: #fff; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #eee; }
+        .actions button { margin-right: 5px; }
+        img { max-width: 50px; height: auto; }
+    </style>
+</head>
+<body>
+
+<h1>Regjistrimi i Ashensorëve</h1>
+
+<div style="text-align: center; margin-bottom: 20px;">
+    <button onclick="pyetPerLlojin()">Regjistro Ashensor</button>
+    <button onclick="filtroPaKryer()" style="margin-left: 10px;">Filter: Pa kryer</button>
+    <button onclick="rifreskoTabelen()">Trego të gjitha</button>
+</div>
+
+<div style="margin-top: 10px; text-align: center;">
+    <input type="text" id="kerkoAshensor" placeholder="Kërko sipas emrit të ashensorit">
+    <button onclick="kerkoSipasAshensorit()">Kër
